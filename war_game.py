@@ -143,7 +143,7 @@ class War_Game:
         while(self.players[0].get_hand_size() < 26):
             for player in self.players:
                 player.add_card_hand(self.deck.deal())
-                counter += 1
+                counter += 2
                 if counter == 52:
                     self.deck.shuffle()
                     counter = 0
