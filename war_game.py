@@ -129,7 +129,7 @@ class War_Game:
         self.deck = Deck()
         self.players = []
         if num_players < 2:
-            num_players = 2
+            num_players = 24
         elif num_players > 8:
             num_players = 8
         for i in range(num_players):
